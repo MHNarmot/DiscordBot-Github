@@ -7,8 +7,8 @@ from discord import FFmpegPCMAudio
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
-TOKEN = "OTAyMzIyMzE0NzQwNDAwMTI4.GtMZOC.IQS0bSbQ7reH5QPfSImQPuktvJ9QN54kBlEvWY"
-YOUTUBE_API_KEY = "AIzaSyBfDTSv-bpA3TAguJ_QijPljuZPKOLruV4"
+TOKEN = "DISCORD_TOKEN_KEY"
+YOUTUBE_API_KEY = "YOUTUBE_DATA_API_KEY"
 
 intents = discord.Intents.default()
 intents.typing = False
